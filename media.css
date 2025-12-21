@@ -1,0 +1,42 @@
+@media (max-width: 480px){
+    header{
+        width: 100%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 100px 50px 50px 50px;
+    }
+
+    .info{
+        gap: 30px;
+    }
+
+    .inicio{
+        grid-template-columns: 1fr;
+    }
+
+    .cardapio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .card{
+        width: 100%;
+        margin: 0 40px;
+    }
+
+    .sobre-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
