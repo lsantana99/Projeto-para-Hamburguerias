@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#inicio"><img src="data:image/png;base64,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" alt="hamburguer"></a>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#cardapio">Cardapio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="btn">
+            <a href="#">Peça Agora</a>
+        </div>
+    </header>
+    <main id="inicio">
+        <div class="container-text">
+            <h1>O melhor Hamburguer da Cidade</h1>
+            <p>Ingredientes frescos, receitas especiais e entrega rápida. Peça agora e receba em até 40 minutos!
+            </p>
+            <a href="#" class="btn">Ver cardápio</a>
+            <a href="#" class="btn" id="btn-different">Whatsapp</a>
+            <section class="info">
+                <p><strong>+500</strong> Clientes felizes</p>
+                <p><strong>4.0</strong> Avaliação &#x1F31F</p>
+                <p><strong>40min</strong> Ou seu dinheiro de volta</p>
+            </section>
+        </div>
+        <div class="container-img">
+            <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer-main">
+        </div>
+    </main>
+    <section>
+        <div class="cardapio" id="cardapio">
+            <div class="title">
+                <h2>Nosso Cardápio</h2>
+                <p>Escolha o seu favorito e faça seu pedido pelo WhatsApp</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer1">
+                    <div class="description">
+                        <h3>Burguer Clássico</h3>
+                        <p>Pão brioche, 180g de carne, bacon crocante, alface, tomate e molho especial</p>
+                        <strong>R$28,90</strong>
+                    </div>
+                        <button>Pedir</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer1">
+                    <div class="description">
+                        <h3>Burguer Clássico</h3>
+                        <p>Pão brioche, 180g de carne, bacon crocante, alface, tomate e molho especial</p>
+                        <strong>R$28,90</strong>
+                    </div>
+                        <button>Pedir</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer1">
+                    <div class="description">
+                        <h3>Burguer Clássico</h3>
+                        <p>Pão brioche, 180g de carne, bacon crocante, alface, tomate e molho especial</p>
+                        <strong>R$28,90</strong>
+                    </div>
+                    <button>Pedir</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer1">
+                    <div class="description">
+                        <h3>Burguer Clássico</h3>
+                        <p>Pão brioche, 180g de carne, bacon crocante, alface, tomate e molho especial</p>
+                        <strong>R$28,90</strong>
+                    </div>
+                    <button>Pedir</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer1">
+                    <div class="description">
+                        <h3>Burguer Clássico</h3>
+                        <p>Pão brioche, 180g de carne, bacon crocante, alface, tomate e molho especial</p>
+                        <strong>R$28,90</strong>
+                    </div>
+                    <button>Pedir</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer1">
+                    <div class="description">
+                        <h3>Burguer Clássico</h3>
+                        <p>Pão brioche, 180g de carne, bacon crocante, alface, tomate e molho especial</p>
+                        <strong>R$28,90</strong>
+                    </div>
+                    <button>Pedir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article>
+        <div class="sobre-container" id="sobre">
+            <div class="sobre-img">
+                <img src="https://images.unsplash.com/photo-1530554764233-e79e16c91d08?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFtYnVyZ3VlcnxlbnwwfHwwfHx8MA%3D%3D" alt="hamburguer-sobre">
+            </div>
+            <div class="sobre-text">
+                <h2>Nossa História</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque illo quia quis recusandae vero obcaecati dolor, ullam quam nemo facilis perferendis nulla enim quidem iste maxime numquam repellendus corporis!</p>
+                <li><strong><img src="https://cdn-icons-png.flaticon.com/128/1755/1755245.png" alt="li-burguer">Carne fresca</strong> - 100% bovina selecionada</li>
+                <li><strong><img src="https://cdn-icons-png.flaticon.com/128/5637/5637217.png" alt="li-entrega"> Entrega rápida</strong> - Máximo 40 minutos</li>
+                <li><strong><img src="https://cdn-icons-png.flaticon.com/128/7045/7045716.png" alt="li-pagamento"> Pagamento fácil</strong> - Pix, cartão ou dinheiro</li>
+            </div>
+        </div>
+    </article>
+    <section>
+        <div class="call" id="contato">
+            <h2>Bateu a fome?</h2>
+            <p>Faça seu pedido agora e receba em casa!</p>
+            <button>
+                <img src="https://cdn-icons-png.flaticon.com/128/455/455705.png" alt="icon-phone">Pedir pelo Whatsapp
+            </button>
+        </div>
+    </section>
+    <footer>
+        <section>
+            <h3>Burguer House</h3>
+            <p>O melhor hamburguer artesanal da cidade</p>
+        </section>
+        <section>
+            <h3>Horário</h3>
+            <p>Terça a domingo</p>
+            <p>18h as 23h</p>
+        </section>
+        <section>
+            <h3>Contato</h3>
+            <p>(11) 99999-9999</p>
+            <p>Rua dos hamburgueres, 1234</p>
+        </section>
+        <section>
+            <h3>Redes sociais</h3>
+            <p>Instagram</p>
+            <p>Facebook</p>
+        </section>
+        <div class="last">
+            <p>&copy;2026 - Hamburgueria</p>
+        </div>
+    </footer>
+</body>
+</html>

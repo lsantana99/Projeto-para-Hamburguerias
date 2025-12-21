@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(to right, #FFFFFF, #CFFFDE);
+    font-family: "Merriweather Sans", sans-serif;
+    height: 100vh;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    align-items: center;
+    height: 70px;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 2px 1px 8px rgb(129, 129, 129);
+    font-size: 16px;
+}
+
+header img{
+    height: 40px;
+}
+
+header nav a{
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: rgb(214, 139, 0);
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(214, 139, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 139, 0);
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(214, 139, 0);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.container-text h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.container-text p{
+    margin: 20px 0px;
+}
+
+#btn-different{
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+#btn-different:hover{
+    background-color: rgb(214, 139, 0);
+    color: white;
+}
+
+.info{
+    margin-top: 40px;
+    display: flex;
+}
+
+.info p{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.info strong{
+    color: rgb(214, 139, 0);
+    font-size: 30px;
+}
+
+main img{
+    border-radius: 20px;
+}
+.cardapio .title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    background-color: #a6c9b1;
+    margin: 0 10px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    width: 25%;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .description{
+    padding: 15px;
+}
+
+.description p{
+    margin: 15px 0;
+}
+
+.card button{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(214, 139, 0);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.card button:hover{
+    border: 2px solid rgb(214, 139, 0);
+    background-color: transparent;
+}
+
+.sobre-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.sobre-img{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-img img{
+    border-radius: 20px;
+    height: 500px;
+}
+
+.sobre-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre-text li img{
+    height: 20px;
+}
+
+.sobre-text h2{
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.sobre-text p{
+    margin-bottom: 20px;
+}
+
+.sobre-text li{
+    display: flex;
+    align-items: center;
+    gap: 8px;    
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.sobre-text li strong{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.call{
+    background-color: rgb(214, 139, 0);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.call h2{
+    margin-bottom: 25px;
+}
+
+.call p{
+    margin-bottom: 35px;
+}
+
+.call button{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #a6c9b1;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.call button:hover{
+    background-color: transparent;
+}
+
+.call button img{
+    height: 20px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    padding: 10px 10%;
+    padding-top: 40px;
+    background-color: black;
+    color: #a6c9b1;
+}
+
+footer section h3{
+    margin-bottom: 10px;
+}
+
+footer section p{
+    margin-bottom: 5px;
+}
+
+footer .last{
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+@media (max-width: 480px){
+    header{
+        width: 100%;
+    }
+
+    .inicio{
+        grid-template-columns: 1fr;
+    }
+
+    .cardapio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .cards{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card{
+        
+    }
+}
