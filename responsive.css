@@ -13,6 +13,7 @@
 
     .dropdown{
         display: block;
+        margin: 5px 0 0 5px;
     }
 
     #inicio{
@@ -27,7 +28,7 @@
     }
 
     .card{
-        width: 100%;
+        width: 80%;
     }
 
     #sobre{
