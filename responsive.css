@@ -1,0 +1,51 @@
+@media (max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .header-mobile{
+        display: none;
+    }
+
+    .header-mobile img{
+        display: block;
+    }
+
+    .dropdown{
+        display: block;
+    }
+
+    #inicio{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-img img{
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sobre-img img{
+        width: 100%;
+    }
+
+    .sobre-text{
+        width: 100%;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}

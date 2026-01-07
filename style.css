@@ -21,7 +21,7 @@ body{
     height: 100vh;
 }
 
-header{
+.header-mobile{
     position: fixed;
     display: flex;
     justify-content: space-around;
@@ -41,6 +41,8 @@ header img{
 header nav a{
     margin-left: 15px;
     text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 
 header nav a:hover{
@@ -55,13 +57,29 @@ header nav a:hover{
     background-color: rgb(214, 139, 0);
     padding: 10px 20px;
     border-radius: 10px;
-    border: 2px solid rgb(214, 139, 0);
     transition: 0.2s;
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown .btn{
+    background-color: rgb(214, 139, 0);
+    border: none;
+}
+
+.dropdown .btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgb(214, 139, 0);
+
 }
 
 .btn:hover{
     background-color: white;
     box-shadow: 2px 2px 4px rgb(214, 139, 0);
+    border: 1px solid rgb(214, 139, 0);
 }
 
 main{
@@ -92,7 +110,7 @@ main{
 
 #btn-different:hover{
     background-color: rgb(214, 139, 0);
-    color: white;
+    color: black;
 }
 
 .info{
@@ -168,7 +186,7 @@ main img{
 }
 
 .card button:hover{
-    border: 2px solid rgb(214, 139, 0);
+    border: 1px solid rgb(214, 139, 0);
     background-color: transparent;
 }
 
