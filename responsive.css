@@ -1,19 +1,18 @@
 @media (max-width:480px){
-    body{
-        overflow-x: hidden;
-    }
+    
+
 
     .header-mobile{
         display: none;
     }
 
-    .header-mobile img{
-        display: block;
-    }
-
     .dropdown{
         display: block;
-        margin: 5px 0 0 5px;
+        margin: 5px 0 0 20px;
+    }
+
+    .container-text{
+        padding: 0 20px;
     }
 
     #inicio{
@@ -22,19 +21,35 @@
         width: 100%;
     }
 
+    .container-img{
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
     .container-img img{
         width: 100%;
-        padding: 0 1rem;
+    }
+
+    .tittle{
+        width: 100%;
+    }
+
+    .cards{
+        display: flex;
+        align-items: center;
     }
 
     .card{
         width: 80%;
+        margin: 0;
     }
 
     #sobre{
         display: flex;
         flex-direction: column;
         width: 100%;
+        gap: 1rem;
     }
 
     .sobre-img img{
@@ -42,11 +57,13 @@
     }
 
     .sobre-text{
-        width: 100%;
+        width: 90%;
+        text-align: center;
     }
 
     footer{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 }

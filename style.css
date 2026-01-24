@@ -106,6 +106,7 @@ main{
 #btn-different{
     background-color: transparent;
     margin-left: 15px;
+    border: 2px solid rgb(214, 139, 0);
 }
 
 #btn-different:hover{
@@ -143,19 +144,19 @@ main img{
 }
 
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
     justify-content: center;
-    margin-bottom: 50px;
+    margin: 0 auto 15px;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .card{
     background-color: #a6c9b1;
-    margin: 0 10px;
     border-radius: 10px;
     padding-bottom: 15px;
-    width: 25%;
 }
 
 .card img{
